@@ -3,7 +3,7 @@ import { Grid, Typography, Card, CardMedia, Box } from '@mui/material'
 
 export const Skills = () => {
     return (
-        <Grid item justifyContent='center' id='skills' sx={{ height: { xs: "1200px", md: '100vh'  } , width: '1200px', backgroundColor: 'rgb(241, 238, 238)', borderRadius: 3, boxShadow: '2px 1px 8px 1px rgba(0,0,0,0.1)', marginTop: 5 }} >
+        <Grid item justifyContent='center' id='skills' sx={{ height: { xs: "1000px", md: '100vh'  } , width: '1200px', backgroundColor: 'rgb(241, 238, 238)', borderRadius: 3, boxShadow: '2px 1px 8px 1px rgba(0,0,0,0.1)', marginTop: 5 }} >
 
             <Grid item sx={{ padding: {xs: 9, sm: 10, xl: 10 } }} display=' flex ' justifyContent='center' gap={0.4}>
             <Typography sx={{ fontSize: 50 }}><span style={{ fontSize: 50, color: "#ed143d" }}>S</span>KILLS </Typography>
@@ -15,8 +15,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }    >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }} >
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                                sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/html.webp'
@@ -27,8 +26,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                                sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/css.webp'
@@ -39,8 +37,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s', height: { xs: 110, md: 160 } }}
+                                sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/boostrap.png'
@@ -52,8 +49,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                               sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/tailwind.png'
@@ -64,8 +60,7 @@ export const Skills = () => {
                       <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                                sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/material.png'
@@ -76,8 +71,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                                sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/js.png'
@@ -88,8 +82,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                               sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/ts.svg'
@@ -99,8 +92,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s', height: { xs: 100, md: 150, xl: 160 } }}
+                                sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s', height: { xs: 100, md: 150 } }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/logo-og.png'
@@ -112,8 +104,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                               sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/next.png'
@@ -124,8 +115,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                                sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/mongodb.png'
@@ -136,8 +126,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                                sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/firebase.png'
@@ -148,8 +137,7 @@ export const Skills = () => {
                     <Grid item xs={ 1 } sm={ 4 } md={ 3 }  >
                         <Card sx={{ width: { xs: 100, md: 150, xl: 150 }, height: {xs: 100, md: 150, xl: 150} , backgroundColor: 'transparent' }}>
                             <CardMedia
-                                className='img'
-                                sx={{ filter: 'grayscale(100%)', transition: 'ease-in 0.2s' }}
+                               sx={{ filter: { xs: "grayscale(0%)", md: "grayscale(100%)" }, ":hover": { filter:"grayscale(0%)" } , transition: 'ease-in 0.2s' }}
                                 component='img'
                                 alt='react-img'
                                 image='/images/docker.webp'
