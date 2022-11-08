@@ -14,7 +14,7 @@ export const Projects = () => {
             <Typography sx={{ fontSize: 50 }}><span style={{ fontSize: 50, color: "#ed143d" }}>P</span>ROJECTS </Typography>
             </Grid>
 
-            <Grid sx={{ padding: 1, paddingLeft: {  xs: 0, sm: 0, md: 10 } }} container rowSpacing={2} columnSpacing={{ xs: 1, sm: 5, md: 1 }} >
+            <Grid sx={{ padding: 1, paddingLeft: {  xs: 3, sm: 0, md: 10 } }} container rowSpacing={2} columnSpacing={{ xs: 1, sm: 5, md: 1 }} >
 
                 <Grid item xs={12} sm={6} md={4}>
                     <Card sx={{ maxWidth: 270, borderRadius: 2, backgroundColor: 'white' }}>
