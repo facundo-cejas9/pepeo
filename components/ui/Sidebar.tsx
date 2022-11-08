@@ -28,7 +28,7 @@ export const Sidebar = () => {
     >
       <Box sx={{ width: '250px', paddingTop: 10, backgroundColor: '#2c2c2c' }}>
 
-        <Button className='btn__navbar'>
+        <Button sx={{ ":hover": { backgroundColor: "transparent" }, fontFamily: 'Cantarell'  }}>
 
           <Link to='about' smooth={true} duration={2}>
             <Typography
@@ -39,7 +39,7 @@ export const Sidebar = () => {
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 10
+                padding: 0
               }}
             >
               About
@@ -48,7 +48,7 @@ export const Sidebar = () => {
 
         </Button>
 
-        <Button className='btn__navbar'>
+        <Button sx={{ ":hover": { backgroundColor: "transparent" }, fontFamily: 'Cantarell'  }}>
 
           <Link to='skills' smooth={true} duration={2}>
             <Typography
@@ -60,7 +60,7 @@ export const Sidebar = () => {
                 fontFamily: 'monospace',
                 fontSize: "2rem",
                 margin: 0,
-                padding: 10
+                padding: 0
               }}
             >
               Skills
@@ -69,7 +69,7 @@ export const Sidebar = () => {
 
         </Button>
 
-        <Button className='btn__navbar'>
+        <Button sx={{ ":hover": { backgroundColor: "transparent" }, fontFamily: 'Cantarell'  }}>
 
           <Link to='projects' smooth={true} duration={2}>
             <Typography
@@ -80,7 +80,7 @@ export const Sidebar = () => {
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 10
+                padding: 0
               }}
             >
               Projects
@@ -89,7 +89,7 @@ export const Sidebar = () => {
 
         </Button>
 
-        <Button className='btn__navbar'>
+        <Button sx={{ ":hover": { backgroundColor: "transparent" }, fontFamily: 'Cantarell'  }}>
 
           <Link to='contact' smooth={true} duration={2}>
             <Typography
@@ -100,7 +100,7 @@ export const Sidebar = () => {
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 10
+                padding: 0
               }}
             >
               Contact

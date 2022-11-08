@@ -48,6 +48,7 @@ const Navbar = () => {
           <NextLink href="/" passHref>
             <Link to='/' style={{ textDecoration: 'none' }}>
               <Typography sx={{
+                marginTop: 3,
                 fontSize: { xs: 23, md: 30 }
               }}
                 className='link__logo'
@@ -62,7 +63,7 @@ const Navbar = () => {
 
           <Box sx={{ display: { xs: 'none', md: 'block' } }}>
             <Toolbar>
-              <Button className='btn__navbar'>
+              <Button sx={{ ":hover": { backgroundColor: "transparent" }, fontFamily: 'Cantarell'  }}>
                 <Link to='about'>
                   <Typography
                     component='h6'
@@ -79,7 +80,7 @@ const Navbar = () => {
                 </Link>
               </Button>
 
-              <Button className='btn__navbar'>
+              <Button  sx={{ ":hover": { backgroundColor: "transparent" }, fontFamily: 'Cantarell'  }}>
                 <Link to='skills'>
                   <Typography
                     component='h6'
@@ -96,7 +97,7 @@ const Navbar = () => {
                 </Link>
               </Button>
 
-              <Button className='btn__navbar'>
+              <Button sx={{ ":hover": { backgroundColor: "transparent" }, fontFamily: 'Cantarell'  }}>
                 <Link to='projects'>
                   <Typography
                     component='h6'
@@ -113,7 +114,7 @@ const Navbar = () => {
                 </Link>
               </Button>
 
-              <Button className='btn__navbar'>
+              <Button sx={{ ":hover": { backgroundColor: "transparent" }, fontFamily: 'Cantarell'  }}>
                 <Link to='contact'>
                   <Typography
                     component='h6'
