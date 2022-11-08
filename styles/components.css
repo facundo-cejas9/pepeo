@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+.nav-link {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Cantarell';
+    margin: 10px;
+    padding: 20px;
+}
+
+.nav-link:hover {
+    color: #ed143d;
+    transition: .3s ease-in;
+}
+
+
+.navbar-active {
+    background-color: transparent;
+}
+
+
+
+.section {
+    background-image: url(/images/image.jpg);
+    background-size: cover;
+    height: 100vh;
+
+
+
+
+}
+
+.btn__navbar {
+    padding: 0;
+}
+
+.btn__navbar:hover {
+    background-color: transparent;
+}
+
+.span {
+    color: #ed143d
+}
+
+.name {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'arial';
+    margin: 5px;
+
+}
+
+.link__logo {
+
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.navbar-active {
+    background-color: #2c2c2c;
+    transition: .5s ease-in-out;
+
+}
+
+.dev {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+/** Text writer **/
+
+.text {
+    font-size: 40px;
+    font-family: 'Cantarell';
+    color: white;
+    text-transform: capitalize;
+}
+
+.text__typer {
+    font-size: 70px;
+    font-family: 'Cantarell';
+    color: #ed143d;
+    text-transform: capitalize;
+}
+
+.menu {
+    margin: 10px auto;
+    padding: 0px 30px
+}
+
+/* section about */
+
+.text__about {
+    font-size: 60px;
+    font-family: 'Cantarell';
+    color: #2c2c2c;
+    margin-top: 20px;
+}
+
+.text__me {
+    font-size: 60px;
+    font-family: 'Cantarell';
+    color: #ed143d;
+    margin-top: 20px;
+}
+
+.foto {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 20%;
+}
+
+.btn {
+    background-color: inherit;
+    color: black;
+    padding: 10px 50px 10px 50px;
+    border: 1px solid #ed143d;
+    border-radius: 5px;
+    bottom: 50px;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+/* Skills IMAGES */
+
+.img:hover {
+    filter: grayscale(0%);
+}
+
+
+/*  Card projects */
+
+.contact__card {
+    background-color: white;
+}
+
+
+/* Media query */
+
+
+
+@media (max-width: 600px) {
+    .menu {
+        margin-top: 50px;
+        padding: 20px 10px
+    }
+
+    .img {
+        filter: grayscale(0%);
+    }
+
+    .foto {
+        display: flex;
+        margin-left: 60px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .btn {
+
+        border-radius: 5px;
+        left: 20px;
+        right: 100px;
+        top: 10px;
+        font-size: 15px;
+        margin-right: 100px
+    }
+
+    .text__about {
+        font-size: 40px;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 900px) {
+    .dev {
+        left: 50px;
+    }
+
+    .foto {
+        display: flex;
+        justify-content: center;
+        width: 300;
+        height: 300;
+        border-radius: 50%;
+    }
+
+
+}
