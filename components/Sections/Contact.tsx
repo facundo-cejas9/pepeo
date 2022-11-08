@@ -45,7 +45,7 @@ export const Contact = () => {
                 </Grid>
 
 
-                <Grid sx={{ display: 'grid', placeContent: 'center', marginTop: { xs: 3, md: 9 } }}   xs={1} sm={3}>
+                <Grid sx={{ display: 'grid', placeContent: 'center', marginTop: { xs: 3, md: 0 } }}   xs={1} sm={3}>
                     <Card  sx={{ marginTop: { sx: 3, sm: 9, lg: 9 }, width: { xs: 300, sm: 200, lg: 300 }, height: { xs: 150, sm: 200, lg: 300 }, backgroundColor: 'white' }}>
                         <Grid item sx={{ display: 'grid', placeContent: 'center', marginTop: { xs: 2, sm: 3, lg: 10 } }}>
                             <img style={{ height: 100, width: 100, marginLeft: 50 }}
