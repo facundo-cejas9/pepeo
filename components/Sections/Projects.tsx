@@ -11,7 +11,7 @@ export const Projects = () => {
         >
 
             <Grid item sx={{ padding: { xs: 4, sm: 5, xl: 10 } }} display=' flex ' justifyContent='center' gap={0.5}>
-                <Typography className='text__about'><span className='span'>P</span>ROJECTS</Typography>
+            <Typography sx={{ fontSize: 50 }}><span style={{ fontSize: 50, color: "#ed143d" }}>P</span>ROJECTS </Typography>
             </Grid>
 
             <Grid sx={{ padding: 1, paddingLeft: {  xs: 0, sm: 0, md: 10 } }} container rowSpacing={2} columnSpacing={{ xs: 1, sm: 5, md: 1 }} >

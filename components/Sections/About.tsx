@@ -7,7 +7,7 @@ export const About = () => {
     <Grid item justifyContent='center' id='about' sx={{ height: '100vh', width: '1200px', backgroundColor: 'rgb(241, 238, 238)', borderRadius: 3, boxShadow: '2px 1px 8px 1px rgba(0,0,0,0.1)', marginTop: 5 }} >
 
       <Grid item sx={{ padding: { xs: 9, sm: 10, xl: 10 } }} display=' flex ' justifyContent='center' gap={0.4}>
-        <Typography className='text__about'><span className='span'>A</span>BOUT</Typography>
+        <Typography sx={{ fontSize: 50 }}><span style={{ fontSize: 50 }} className='span'>A</span>BOUT</Typography>
       </Grid>
 
 
@@ -25,8 +25,8 @@ export const About = () => {
           Soy una persona creativa, responsable, perseverante, metódica con iniciativa y adquisición de nuevos conocimientos.</Typography>
         </Grid>
 
-        <div className='cv'>
-        <Button sx={{ marginLeft: { xs: 0, sm: 20, md: 28 }, marginTop: { xs: 0, sm: 5, md: 1 }, left: { xs: 0, sm: -310, md: 0   } }} href="https://drive.google.com/file/d/1i0ZNKjELRak2n1IpyZEW4IK4Uz1Hhn9L/view?usp=sharing" rel='noreferrer' target='_blank' className='btn'>
+        <div >
+        <Button sx={{padding: "10px 30px", backgroundColor: '#ed143d', border: '1px solid red', ":hover": "red", marginLeft: { xs: 0, sm: 20, md: 28 }, marginTop: { xs: 0, sm: 5, md: 1 }, left: { xs: 0, sm: -310, md: 0   } }} href="https://drive.google.com/file/d/1i0ZNKjELRak2n1IpyZEW4IK4Uz1Hhn9L/view?usp=sharing" rel='noreferrer' target='_blank' >
           Descargar CV
         </Button>
         </div>

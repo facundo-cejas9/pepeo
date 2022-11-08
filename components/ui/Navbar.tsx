@@ -42,7 +42,7 @@ const Navbar = () => {
   return (
 
     <Grid className='section'>
-      <AppBar sx={{ paddingBottom: 12 }} className={navbar ? 'navbar-active' : 'barra'} elevation={0}>
+      <AppBar sx={{ paddingBottom: 12, backgroundColor: "#2c2c2c" }}  elevation={0}>
 
         <Container maxWidth='xl' sx={{ display: 'flex', justifyContent: 'space-between' }} >
           <NextLink href="/" passHref>
@@ -71,6 +71,7 @@ const Navbar = () => {
                     sx={{
                       color: 'white',
                       fontFamily: 'revert-layer',
+                      fontSize: "2rem"
                     }}
                   >
                     About
@@ -86,10 +87,8 @@ const Navbar = () => {
 
                     sx={{
                       color: 'white',
-                      fontSize: 25,
-                      fontWeight: 600,
-                      margin: 10,
-                      padding: 20,
+                      fontFamily: 'revert-layer',
+                      fontSize: "2rem"
                     }}
                   >
                     Skills
@@ -106,6 +105,7 @@ const Navbar = () => {
                     sx={{
                       color: 'white',
                       fontFamily: 'revert-layer',
+                      fontSize: "2rem"
                     }}
                   >
                     Projects
@@ -122,6 +122,7 @@ const Navbar = () => {
                     sx={{
                       color: 'white',
                       fontFamily: 'revert-layer',
+                      fontSize: "2rem"
                     }}
                   >
                     Contact

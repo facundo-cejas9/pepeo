@@ -6,7 +6,7 @@ export const Skills = () => {
         <Grid item justifyContent='center' id='skills' sx={{ height: '100vh', width: '1200px', backgroundColor: 'rgb(241, 238, 238)', borderRadius: 3, boxShadow: '2px 1px 8px 1px rgba(0,0,0,0.1)', marginTop: 5 }} >
 
             <Grid item sx={{ padding: {xs: 9, sm: 10, xl: 10 } }} display=' flex ' justifyContent='center' gap={0.4}>
-                <Typography className='text__about'><span className='span'>S</span>KILLS</Typography>
+            <Typography sx={{ fontSize: 50 }}><span style={{ fontSize: 50, color: "#ed143d" }}>S</span>KILLS </Typography>
             </Grid>
 
 
