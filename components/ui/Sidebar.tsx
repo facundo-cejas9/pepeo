@@ -39,7 +39,7 @@ export const Sidebar = () => {
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 0
+                padding: 10
               }}
             >
               About
@@ -59,8 +59,7 @@ export const Sidebar = () => {
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                margin: 0,
-                padding: 0
+                padding: 10
               }}
             >
               Skills
@@ -80,7 +79,7 @@ export const Sidebar = () => {
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 0
+                padding: 10
               }}
             >
               Projects
@@ -100,7 +99,7 @@ export const Sidebar = () => {
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 0
+                padding: 10
               }}
             >
               Contact

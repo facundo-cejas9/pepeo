@@ -46,7 +46,7 @@ export const Contact = () => {
 
 
                 <Grid sx={{ display: 'grid', placeContent: 'center' }} xs={1} sm={3}>
-                    <Card className='contact__card' sx={{ marginTop: { sx: 0, sm: 9, lg: 9 }, width: { xs: 300, sm: 200, lg: 300 }, height: { xs: 150, sm: 200, lg: 300 } }}>
+                    <Card  sx={{ marginTop: { sx: 0, sm: 9, lg: 9 }, width: { xs: 300, sm: 200, lg: 300 }, height: { xs: 150, sm: 200, lg: 300 }, backgroundColor: 'white' }}>
                         <Grid item sx={{ display: 'grid', placeContent: 'center', marginTop: { xs: 2, sm: 3, lg: 10 } }}>
                             <img style={{ height: 100, width: 100, marginLeft: 50 }}
                                 src='/images/gmail.png'

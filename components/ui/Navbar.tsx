@@ -49,12 +49,13 @@ const Navbar = () => {
             <Link to='/' style={{ textDecoration: 'none' }}>
               <Typography sx={{
                 marginTop: 3,
-                fontSize: { xs: 23, md: 30 }
+                fontSize: { xs: 23, md: 30 },
+                fontFamily: 'Cantarell'
               }}
                 className='link__logo'
                 variant='h5'>
-                <span className='span'>F</span>ACUNDO
-                <span className='span'> C</span>EJAS
+                <span style={{ fontFamily: 'Cantarell' }} className='span'>F</span>ACUNDO
+                <span style={{ fontFamily: 'Cantarell' }}> C</span>EJAS
               </Typography>
             </Link>
           </NextLink>
