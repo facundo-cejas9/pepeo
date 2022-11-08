@@ -50,12 +50,13 @@ const Navbar = () => {
               <Typography sx={{
                 marginTop: 3,
                 fontSize: { xs: 23, md: 30 },
-                fontFamily: 'Cantarell'
+                fontFamily: 'Cantarell',
+                fontWeight: "bold"
               }}
                 className='link__logo'
                 variant='h5'>
-                <span style={{ fontFamily: 'Cantarell' }} className='span'>F</span>ACUNDO
-                <span style={{ fontFamily: 'Cantarell' }}> C</span>EJAS
+                <span style={{ fontFamily: 'Cantarell', fontWeight: "bold"}} className='span'>F</span>ACUNDO
+                <span style={{ fontFamily: 'Cantarell' }} className="span"> C</span>EJAS
               </Typography>
             </Link>
           </NextLink>

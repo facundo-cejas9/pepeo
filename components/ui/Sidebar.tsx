@@ -34,12 +34,17 @@ export const Sidebar = () => {
             <Typography
               onClick={closeSideMenu}
               component='h6'
-              className='nav-link'
               sx={{
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 10
+                padding: 5,
+                marginLeft: 0,
+                transition: ".3s ease-in",
+                ":hover": {
+                  color: '#ed143d',
+                  transition: ".3s ease-in"
+                }
               }}
             >
               About
@@ -54,12 +59,17 @@ export const Sidebar = () => {
             <Typography
               onClick={closeSideMenu}
               component='h6'
-              className='nav-link'
               sx={{
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 10
+                padding: 5,
+                marginLeft: 0,
+                transition: ".3s ease-in",
+                ":hover": {
+                  color: '#ed143d',
+                  transition: ".3s ease-in"
+                }
               }}
             >
               Skills
@@ -74,12 +84,18 @@ export const Sidebar = () => {
             <Typography
               onClick={closeSideMenu}
               component='h6'
-              className='nav-link'
+
               sx={{
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 10
+                padding: 5,
+                marginLeft: 0,
+                transition: ".3s ease-in",
+                ":hover": {
+                  color: '#ed143d',
+                  transition: ".3s ease-in"
+                }
               }}
             >
               Projects
@@ -94,12 +110,18 @@ export const Sidebar = () => {
             <Typography
               onClick={closeSideMenu}
               component='h6'
-              className='nav-link'
+            
               sx={{
                 color: 'white',
                 fontFamily: 'monospace',
                 fontSize: "2rem",
-                padding: 10
+                padding: 5,
+                marginLeft: 0,
+                transition: ".3s ease-in",
+                ":hover": {
+                  color: '#ed143d',
+                  transition: ".3s ease-in"
+                }
               }}
             >
               Contact
